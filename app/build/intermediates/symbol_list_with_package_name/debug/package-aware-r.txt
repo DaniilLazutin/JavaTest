@@ -923,14 +923,22 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bar_color
+color bg_login
+color bg_main
+color bg_register
 color black
 color black_de
+color blue_500
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color btn_login
+color btn_login_bg
+color btn_logut_bg
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -953,6 +961,10 @@ color color6
 color color7
 color color8
 color color9
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color cool_blue
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -999,8 +1011,16 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray_300
+color gray_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color input_login
+color input_login_hint
+color input_register
+color input_register_bg
+color input_register_hint
+color lbl_name
 color lite_blue
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1571,6 +1591,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_back
+drawable ic_computing_cloud
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1700,6 +1721,10 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnLinkToLoginScreen
+id btnLinkToRegisterScreen
+id btnLogin
+id btnRegister
 id btn_color
 id btn_save
 id btn_stroke
@@ -1850,6 +1875,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name
 id navigation_header_container
 id negative
 id never
@@ -1868,6 +1894,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -2057,7 +2084,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
+layout activity_register
 layout color_palette_layout
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2131,6 +2160,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Exit_toast
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2161,6 +2191,12 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btn_link_to_login
+string btn_link_to_register
+string btn_login
+string btn_logout
+string btn_register
+string button_set_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2170,10 +2206,15 @@ string colorpicker_dialog_cancel
 string colorpicker_dialog_ok
 string colorpicker_dialog_title
 string error_icon_content_description
+string exit_dialog
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string go_out
 string hide_bottom_view_on_scroll_behavior
+string hint_email
+string hint_name
+string hint_password
 string icon_content_description
 string item_view_role_description
 string material_slider_range_end
@@ -2218,8 +2259,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string picture_name
+string save_title
 string search_menu_title
 string status_bar_notification_info_overflow
+string stay
+string title_tools
+string toolbar_title
+string welcome
 style ActionButton
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3037,6 +3084,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml network_security_config
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

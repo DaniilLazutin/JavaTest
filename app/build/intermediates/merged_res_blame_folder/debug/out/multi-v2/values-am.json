@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml",
+            "outputFile": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
                     "source": "/home/student/.gradle/caches/transforms-2/files-2.1/0cb9ff486f5edb59977e253831b932c8/appcompat-1.2.0/res/values-am/values-am.xml",

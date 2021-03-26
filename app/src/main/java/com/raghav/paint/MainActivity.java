@@ -11,15 +11,23 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.android.material.slider.RangeSlider;
 
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 import petrov.kristiyan.colorpicker.ColorPicker;
 
@@ -120,22 +128,18 @@ public class MainActivity extends AppCompatActivity {
         stroke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(rangeSlider.getVisibility()==View.VISIBLE)
-                    rangeSlider.setVisibility(View.GONE);
-                else
-                    rangeSlider.setVisibility(View.VISIBLE);
-            }
-        });
-
-        //set the range of the RangeSlider
-        rangeSlider.setValueFrom(0.0f);
-        rangeSlider.setValueTo(100.0f);
-        //adding a OnChangeListener which will change the stroke width
-        //as soon as the user slides the slider
-        rangeSlider.addOnChangeListener(new RangeSlider.OnChangeListener() {
-            @Override
-            public void onValueChange(@NonNull RangeSlider slider, float value, boolean fromUser) {
-                paint.setStrokeWidth((int) value);
+                String uploadFilePath = Environment.getExternalStorageDirectory() + "/Pictures/";
+                String uploadFileName = "drawing.png";
+                String sourceFileUri = uploadFilePath + uploadFileName;
+                String upLoadServerUri = LoginActivity.HOST + "/api/upload";
+                new Thread(new Runnable() {
+                    public void run() {
+                        uploadImage(uploadFilePath, uploadFileName, sourceFileUri,
+                                upLoadServerUri, uploadFileName, "Image from android");
+                    }
+                }).start();
+                Toast.makeText(getApplicationContext(), "Image has been successfully",
+                        Toast.LENGTH_LONG).show();
             }
         });
 
@@ -151,5 +155,122 @@ public class MainActivity extends AppCompatActivity {
                 paint.init(height, width);
             }
         });
+    }
+
+
+
+    protected int uploadImage(String uploadFilePath, String uploadFileName,
+                              String sourceFileUri, String upLoadServerUri, String title, String body) {
+        String fileName = sourceFileUri;
+        int serverResponseCode;
+        HttpURLConnection conn = null;
+        DataOutputStream dos = null;
+        String lineEnd = "\r\n";
+        String twoHyphens = "--";
+        String boundary = "qwerty";
+        int bytesRead, bytesAvailable, bufferSize;
+        byte[] buffer;
+        int maxBufferSize = 1 * 1024 * 1024;
+        File sourceFile = new File(sourceFileUri);
+
+        if (!sourceFile.isFile()) {
+
+            Log.e("uploadFile", "Source File not exist :"
+                    + uploadFilePath + "" + uploadFileName);
+
+            return 0;
+
+        } else {
+            serverResponseCode = 0;
+            try {
+                FileInputStream fileInputStream = new FileInputStream(sourceFile);
+                URL url = new URL(upLoadServerUri);
+
+                conn = (HttpURLConnection) url.openConnection();
+                conn.setDoInput(true);
+                conn.setDoOutput(true);
+                conn.setUseCaches(false);
+                conn.setRequestMethod("POST");
+                conn.setRequestProperty("Accept", "*/*");
+                conn.setRequestProperty("token", LoginActivity.mToken);
+                conn.setRequestProperty("Content-Type", "multipart/form-data; boundary=" + boundary);
+
+                dos = new DataOutputStream(conn.getOutputStream());
+
+                dos.writeBytes(twoHyphens + boundary + lineEnd);
+                dos.writeBytes("Content-Disposition: form-data; name=\"file\"; filename=\"" + uploadFileName + "\"");
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(lineEnd);
+
+                // create a buffer of  maximum size
+                bytesAvailable = fileInputStream.available();
+
+                bufferSize = Math.min(bytesAvailable, maxBufferSize);
+                buffer = new byte[bufferSize];
+
+                // read file and write it into form...
+                bytesRead = fileInputStream.read(buffer, 0, bufferSize);
+
+                while (bytesRead > 0) {
+
+                    dos.write(buffer, 0, bufferSize);
+                    bytesAvailable = fileInputStream.available();
+                    bufferSize = Math.min(bytesAvailable, maxBufferSize);
+                    bytesRead = fileInputStream.read(buffer, 0, bufferSize);
+
+                }
+
+                // send multipart form data necesssary after file data...
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(lineEnd);
+
+                dos.writeBytes(twoHyphens + boundary + lineEnd);
+                dos.writeBytes("Content-Disposition: form-data; name=\"title\"");
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(title);
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(twoHyphens + boundary + lineEnd);
+                dos.writeBytes("Content-Disposition: form-data; name=\"body\"");
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(body);
+                dos.writeBytes(lineEnd);
+                dos.writeBytes(twoHyphens + boundary + twoHyphens);
+                dos.writeBytes(lineEnd);
+
+
+                // Responses fro m the server (code and message)
+                serverResponseCode = conn.getResponseCode();
+                String serverResponseMessage = conn.getResponseMessage();
+
+                Log.i(MainActivity.class.getSimpleName(), "OUTPUT HTTP Response is : "
+                        + serverResponseMessage + ": " + serverResponseCode);
+
+                if (serverResponseCode == 201) {
+                    Log.i(MainActivity.class.getSimpleName(),
+                            "OUTPUT File Upload Completed: " + uploadFileName);
+                }
+
+                //close the streams //
+                fileInputStream.close();
+                dos.flush();
+                dos.close();
+
+            } catch (MalformedURLException ex) {
+                ex.printStackTrace();
+
+                Log.i(MainActivity.class.getSimpleName(),
+                        "OUTPUT File Upload error: " + ex.getMessage(), ex);
+            } catch (Exception e) {
+
+                e.printStackTrace();
+                Log.i(MainActivity.class.getSimpleName(), "OUTPUT File Upload Exception : "
+                        + e.getMessage(), e);
+            }
+            return serverResponseCode;
+
+        }
+
     }
 }

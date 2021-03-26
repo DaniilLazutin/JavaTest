@@ -6,49 +6,81 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+8-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+9-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:5:5-80
-11-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:5:22-77
+11-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:5:5-80
+11-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:5:22-77
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:6:5-81
-12-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:6:22-78
-13
-14    <application
-14-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:8:5-22:19
-15        android:allowBackup="true"
-15-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.1] /home/student/.gradle/caches/transforms-2/files-2.1/b234a824af7fd98a5c54fc0522824a91/core-1.3.1/AndroidManifest.xml:24:18-86
-17        android:debuggable="true"
-18        android:icon="@mipmap/ic_launcher"
-18-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:10:9-43
-19        android:label="@string/app_name"
-19-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:11:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:12:9-54
-21        android:supportsRtl="true"
-21-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:13:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.Paint" >
-23-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:14:9-43
-24        <activity android:name="com.raghav.paint.MainActivity" >
-24-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:15:9-21:20
-24-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:15:19-47
-25            <intent-filter>
-25-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:17:17-69
-26-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:19:17-77
-28-->/home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+12-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:8:5-37:19
+16        android:allowBackup="true"
+16-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] /home/student/.gradle/caches/transforms-2/files-2.1/b234a824af7fd98a5c54fc0522824a91/core-1.3.1/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:11:9-41
+21        android:networkSecurityConfig="@xml/network_security_config"
+21-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:16:9-69
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Paint"
+25-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:14:9-43
+26        android:usesCleartextTraffic="true" >
+26-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:15:9-44
+27        <activity
+27-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:17:9-27:20
+28            android:name="com.raghav.paint.LoginActivity"
+28-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:18:13-42
+29            android:label="@string/app_name"
+29-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:19:13-45
+30            android:launchMode="singleTop"
+30-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:20:13-43
+31            android:windowSoftInputMode="adjustPan" >
+31-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:21:13-52
+32            <intent-filter>
+32-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:23:17-69
+33-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:25:17-77
+35-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:28:9-32:55
+39            android:name="com.raghav.paint.RegisterActivity"
+39-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:29:13-45
+40            android:label="@string/app_name"
+40-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:30:13-45
+41            android:launchMode="singleTop"
+41-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:31:13-43
+42            android:windowSoftInputMode="adjustPan" />
+42-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:32:13-52
+43        <activity
+43-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:33:9-36:46
+44            android:name="com.raghav.paint.MainActivity"
+44-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:34:13-41
+45            android:label="@string/app_name"
+45-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:35:13-45
+46            android:launchMode="singleTop" />
+46-->/home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:36:13-43
+47    </application>
+48
+49</manifest>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "/home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",

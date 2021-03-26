@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.android.material:material:1.2.1] /home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/student/.gradle/caches/transforms-2/files-2.1/9570f34841c72a34d773388f89286f55/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [petrov.kristiyan:colorpicker-library:1.1.10] /home/student/.gradle/caches/transforms-2/files-2.1/9f69392e794e84009ac31b29f706d8b6/jetified-colorpicker-library-1.1.10/AndroidManifest.xml:2:1-11:12
@@ -33,33 +33,37 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/student/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/96d0ad977091c6484e2db42674538c87/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/9a82a1a22af6402c2242c9ee80e8919f/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/adf8d4ec58c98f5b37616cb4b06b74f4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:3:5-31
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:6:5-81
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:8:5-22:19
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:8:5-37:19
 MERGED from [com.google.android.material:material:1.2.1] /home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/student/.gradle/caches/transforms-2/files-2.1/9570f34841c72a34d773388f89286f55/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -71,35 +75,63 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stude
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /home/student/.gradle/caches/transforms-2/files-2.1/b234a824af7fd98a5c54fc0522824a91/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:14:9-43
-activity#com.raghav.paint.MainActivity
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:15:9-21:20
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:14:9-43
+	android:networkSecurityConfig
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:16:9-69
+	android:usesCleartextTraffic
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.raghav.paint.LoginActivity
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:17:9-27:20
+	android:label
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:19:13-45
+	android:launchMode
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:20:13-43
+	android:windowSoftInputMode
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:21:13-52
 	android:name
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:18:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.raghav.paint.RegisterActivity
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:28:9-32:55
+	android:label
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:30:13-45
+	android:launchMode
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:31:13-43
+	android:windowSoftInputMode
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:32:13-52
+	android:name
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:29:13-45
+activity#com.raghav.paint.MainActivity
+ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:33:9-36:46
+	android:label
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:35:13-45
+	android:launchMode
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:36:13-43
+	android:name
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml:34:13-41
 uses-sdk
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.2.1] /home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /home/student/.gradle/caches/transforms-2/files-2.1/2e9b4d772a4da06bdfcffbbbb4ab3c14/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/student/.gradle/caches/transforms-2/files-2.1/9570f34841c72a34d773388f89286f55/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
@@ -158,13 +190,13 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/9a82a1a22af6402c2242c9ee80e8919f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/adf8d4ec58c98f5b37616cb4b06b74f4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/student/.gradle/caches/transforms-2/files-2.1/adf8d4ec58c98f5b37616cb4b06b74f4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		ADDED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
-		INJECTED from /home/student/AndroidStudioProjects/Paint/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/AndroidStudioProjects/JavaTest/app/src/main/AndroidManifest.xml

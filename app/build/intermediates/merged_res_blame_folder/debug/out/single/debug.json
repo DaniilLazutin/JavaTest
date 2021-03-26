@@ -1,78 +1,94 @@
 [
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable_ic_paintbrush.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/drawable/ic_paintbrush.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_paintbrush.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_paintbrush.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_paint.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_paint.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/layout/activity_main.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable_ic_save_file.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/drawable/ic_save_file.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_computing_cloud.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_computing_cloud.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable_ic_back.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/drawable/ic_back.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/xml/network_security_config.xml"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/Paint/app/build/intermediates/res/merged/debug/drawable_ic_paint.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/Paint/app/src/main/res/drawable/ic_paint.xml"
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_back.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_save_file.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_save_file.xml"
     }
 ]
