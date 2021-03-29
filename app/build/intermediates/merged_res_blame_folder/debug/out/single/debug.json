@@ -44,12 +44,12 @@
         "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_computing_cloud.xml.flat",
         "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/drawable/ic_computing_cloud.xml"
+    },
+    {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
@@ -60,16 +60,16 @@
         "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/home/student/AndroidStudioProjects/JavaTest/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
-        "source": "/home/student/AndroidStudioProjects/JavaTest/app/src/main/res/xml/network_security_config.xml"
     },
     {
         "merged": "/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",

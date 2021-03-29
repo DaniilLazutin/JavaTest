@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutionException;
 
 public class LoginActivity extends Activity {
 
-    public static final String HOST = "http://172.16.89.6:3000";
+    public static final String HOST = "http://172.16.89.4:3000";
     public static String mToken;
     class Request {
         public URL url;

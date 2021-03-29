@@ -28,7 +28,7 @@ public class RegisterActivity extends Activity {
     private Button btnLinkToLogin;
     private EditText inputName;
     private EditText inputPassword;
-    public static final String HOST = "http://172.16.89.6:3000";
+    public static final String HOST = "http://172.16.89.4:3000";
     public String mToken;
 
     class Request {
@@ -137,11 +137,11 @@ public class RegisterActivity extends Activity {
 //                    mToken = result.getString("token");
                     Toast.makeText(getApplicationContext(), "Registration was successful",
                             Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(
-                            RegisterActivity.this,
-                            LoginActivity.class);
-                    startActivity(intent);
-                    finish();
+//                    Intent intent = new Intent(
+//                            RegisterActivity.this,
+//                            LoginActivity.class);
+//                    startActivity(intent);
+//                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "User already exists!",
                             Toast.LENGTH_SHORT).show();

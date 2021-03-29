@@ -1,9 +1,5 @@
 com/raghav/paint/Stroke.java
  com.raghav.paint.Stroke
-com/raghav/paint/DrawView.java
- com.raghav.paint.DrawView
-com/raghav/paint/BuildConfig.java
- com.raghav.paint.BuildConfig
 com/raghav/paint/MainActivity.java
  com.raghav.paint.MainActivity
  com.raghav.paint.MainActivity$1
@@ -13,11 +9,15 @@ com/raghav/paint/MainActivity.java
  com.raghav.paint.MainActivity$4
  com.raghav.paint.MainActivity$4$1
  com.raghav.paint.MainActivity$5
+com/raghav/paint/BuildConfig.java
+ com.raghav.paint.BuildConfig
 com/raghav/paint/RegisterActivity.java
  com.raghav.paint.RegisterActivity
  com.raghav.paint.RegisterActivity$1
  com.raghav.paint.RegisterActivity$NetworkTask
  com.raghav.paint.RegisterActivity$Request
+com/raghav/paint/DrawView.java
+ com.raghav.paint.DrawView
 com/raghav/paint/LoginActivity.java
  com.raghav.paint.LoginActivity
  com.raghav.paint.LoginActivity$NetworkTask
