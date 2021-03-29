@@ -1,4 +1,4 @@
-#Mon Mar 29 08:39:56 MSK 2021
+#Mon Mar 29 09:00:03 MSK 2021
 base.0=/home/student/AndroidStudioProjects/JavaTest/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

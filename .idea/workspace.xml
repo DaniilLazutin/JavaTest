@@ -34,40 +34,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/MainActivity$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/raghav/paint/RegisterActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/LoginActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/MainActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/MainActivity$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/raghav/paint/RegisterActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raghav/paint/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raghav/paint/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raghav/paint/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raghav/paint/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -243,29 +228,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="407" y="84" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1612279880181" />
-    <state width="1874" height="324" key="GridCell.Tab.0.bottom" timestamp="1616752680850">
+    <state width="1874" height="323" key="GridCell.Tab.0.bottom" timestamp="1616997383129">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1306" height="146" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1612371570732" />
-    <state width="1874" height="324" key="GridCell.Tab.0.bottom/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616752680850" />
+    <state width="1874" height="323" key="GridCell.Tab.0.bottom/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616997383129" />
     <state width="1802" height="324" key="GridCell.Tab.0.bottom/72.27.1848.1173/1920.0.1920.1200@72.27.1848.1173" timestamp="1616751992470" />
-    <state width="1874" height="324" key="GridCell.Tab.0.center" timestamp="1616752680849">
+    <state width="1874" height="323" key="GridCell.Tab.0.center" timestamp="1616997383129">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1306" height="146" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1612371570731" />
-    <state width="1874" height="324" key="GridCell.Tab.0.center/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616752680849" />
+    <state width="1874" height="323" key="GridCell.Tab.0.center/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616997383129" />
     <state width="1802" height="324" key="GridCell.Tab.0.center/72.27.1848.1173/1920.0.1920.1200@72.27.1848.1173" timestamp="1616751992469" />
-    <state width="1874" height="324" key="GridCell.Tab.0.left" timestamp="1616752680849">
+    <state width="1874" height="323" key="GridCell.Tab.0.left" timestamp="1616997383129">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1306" height="146" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1612371570730" />
-    <state width="1874" height="324" key="GridCell.Tab.0.left/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616752680849" />
+    <state width="1874" height="323" key="GridCell.Tab.0.left/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616997383129" />
     <state width="1802" height="324" key="GridCell.Tab.0.left/72.27.1848.1173/1920.0.1920.1200@72.27.1848.1173" timestamp="1616751992469" />
-    <state width="1874" height="324" key="GridCell.Tab.0.right" timestamp="1616752680849">
+    <state width="1874" height="323" key="GridCell.Tab.0.right" timestamp="1616997383129">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1306" height="146" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1612371570731" />
-    <state width="1874" height="324" key="GridCell.Tab.0.right/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616752680849" />
+    <state width="1874" height="323" key="GridCell.Tab.0.right/72.27.1848.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1616997383129" />
     <state width="1802" height="324" key="GridCell.Tab.0.right/72.27.1848.1173/1920.0.1920.1200@72.27.1848.1173" timestamp="1616751992470" />
     <state x="458" y="111" key="RollbackChangesDialog" timestamp="1612279058268">
       <screen x="0" y="0" width="1366" height="768" />
